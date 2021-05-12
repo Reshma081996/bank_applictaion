@@ -1,0 +1,27 @@
+.login{
+    box-sizing: content-box;
+    background-color: rgb(208, 208, 247);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top:23px;
+
+}
+
+.btn1{
+    width:300px;
+}
+
+.home{
+    box-sizing: content-box;
+    background-color: rgb(208, 208, 247);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top:23px;
+
+}
+.btt{
+    position: relative;
+    top:23px;
+}

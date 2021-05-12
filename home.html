@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <script src="bank.js"></script>
+</head>
+
+<body>
+    <h1>welcome user</h1>
+</body>
+
+<di class="container home">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Account Number</label>
+                <input type="text" class="form-control btn1" id="acno" aria-describedby="emailHelp"
+                    placeholder="Enter Account no">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control btn1" id="pwd" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="example1">Amount</label>
+                <input type="text" class="form-control btn1" id="amt" placeholder="Enter Amount">
+            </div>
+            <button type="button" class="btn btn-primary btt" onclick=Bank.withdraw()>Withdraw</button>
+            <button type="button" class="btn btn-primary btt" onclick=Bank.deposit()>Deposit</button>
+
+        </div>
+        <div class="col-4"></div>
+    </div>
+
+
+</html>
